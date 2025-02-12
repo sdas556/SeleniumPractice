@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class BinarySearch {
 
 	public static void main(String[] args) {
-		System.out.println("Testing Testing");
+		
 		int a []= {10,3,6,12,2,5,19,3};
 		
 		System.out.println("Enter the number to be searched: ");
@@ -46,6 +46,7 @@ public class BinarySearch {
 		{
 			System.out.println(String.format("Number %d not found in the array", num) );
 		}
+		sc.close();
 
 	}
 
